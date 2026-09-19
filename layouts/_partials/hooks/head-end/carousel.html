@@ -1,0 +1,5 @@
+{{ $carousel := resources.Get "js/research-carousel.js" }}
+{{ if $carousel }}
+  {{ $built := $carousel | js.Build }}
+  <script src="{{ $built.RelPermalink }}"></script>
+{{ end }}

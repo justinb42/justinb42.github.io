@@ -1,0 +1,102 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Justin P. Bergfield
+  given: Justin
+  family: Bergfield
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+postnominals:
+  - PhD
+
+status:
+
+role: Professor of Physics
+bio: |
+  Justin Bergfield investigates the quantum mechanical aspects of the flow of heat, charge, spin,
+  and information at the nanoscale, with an emphasis on molecule-based systems. His research bridges
+  condensed matter physics, chemistry, and electrical engineering, and focuses on how quantum
+  coherence and interference can be read, lost, erased, and exploited in nanoscale energy-conversion
+  devices.
+
+affiliations:
+  - name: Department of Physics, Illinois State University
+    url: https://physics.illinoisstate.edu/
+
+links:
+  - icon: at-symbol
+    url: mailto:jpbergf@ilstu.edu
+    label: E-mail
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=k2J0GZYAAAAJ
+
+interests:
+  - Quantum transport in molecular junctions
+  - Quantum interference and transmission nodes
+  - Thermoelectrics and thermal probes
+  - Quantum thermodynamics and information
+  - Many-body nonequilibrium Green's functions
+
+education:
+  - degree: PhD, Optical Sciences and Physics
+    institution: University of Arizona
+    start: 2005-08-01
+    end: 2010-12-31
+    summary: |
+      Nonequilibrium many-body theory of electronic and heat transport in single-molecule
+      junctions, with Charles A. Stafford.
+  - degree: MSc, Physics
+    institution: University of Oxford
+    start: 2006-10-01
+    end: 2008-06-30
+    summary: |
+      Micro-photoluminescence of semiconductor quantum dots, with Robert A. Taylor.
+  - degree: BS, Electrical Engineering
+    institution: University of Arizona
+    start: 1997-08-01
+    end: 2001-05-31
+
+experience:
+  - role: Professor of Physics
+    org: Illinois State University
+    start: 2015-08-01
+    summary: |
+      Assistant Professor 2015–2020, Associate Professor 2020–2025. Leads a theory group on quantum
+      transport, quantum interference, and the thermodynamics of information in nanoscale conductors.
+  - role: Research Scientist
+    org: Air Force Research Laboratory, Sensors Directorate
+    start: 2014-03-01
+    end: 2015-08-31
+    summary: |
+      Quantum optics and nanophotonics: electron correlations and light–matter coupling in
+      quantum-engineered systems, with Joshua R. Hendrickson.
+  - role: Postdoctoral Fellow
+    org: Northwestern University, with Mark A. Ratner
+    start: 2012-03-01
+    end: 2014-03-01
+  - role: Postdoctoral Fellow
+    org: University of Copenhagen, with Gemma C. Solomon
+    start: 2011-09-01
+    end: 2012-03-01
+  - role: Postdoctoral Fellow
+    org: University of California, Irvine, with Kieron Burke
+    start: 2010-09-01
+    end: 2011-09-01
+  - role: Research Scientist
+    org: Raytheon Corporation
+    start: 2005-05-01
+    end: 2005-12-31
+    summary: |
+      THz generation via the Smith–Purcell effect in negative-index metamaterials (US 2009/0245811 A1).
+  - role: Engineer
+    org: Raytheon Corporation
+    start: 1998-05-01
+    end: 2004-12-31
+    summary: |
+      High-energy laser simulation, directed-energy programs, and photonic-crystal thermal emitters.
+
+skills: []
+languages: []
+awards: []

@@ -1,0 +1,22 @@
+{{ $limit := int (.Get "limit") }}
+{{ $showMore := .Get "show_more" | default "true" }}
+{{ $news := hugo.Data.news }}
+
+<div class="liu-news-band">
+  <div class="liu-news-inner">
+    <div class="liu-news-title">NEWS</div>
+    <div class="liu-news-list">
+      {{ range first $limit $news }}
+        <div class="liu-news-item">
+          <span class="liu-news-date">{{ .date }}</span>
+          <span class="liu-news-text">{{ .text }}</span>
+        </div>
+      {{ end }}
+    </div>
+    {{ if eq $showMore "true" }}
+    <p class="liu-news-more">
+      <a href="/news-archive/">Full news archive →</a>
+    </p>
+    {{ end }}
+  </div>
+</div>
