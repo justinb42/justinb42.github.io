@@ -1,6 +1,6 @@
 {{ $limit := int (.Get "limit") }}
 {{ $showMore := .Get "show_more" | default "true" }}
-{{ $news := hugo.Data.news }}
+{{ $news := site.Data.news }}
 
 <div class="liu-news-band">
   <div class="liu-news-inner">
