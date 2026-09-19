@@ -44,7 +44,7 @@ Create `content/featured_publications/<slug>/index.md` with `title`, `date`, `au
 
 ## Deploy
 
-Push to `main`; `.github/workflows/deploy.yml` builds and publishes to GitHub Pages. Set the repo's Pages source to "GitHub Actions". `baseURL` is set in `config/_default/hugo.yaml` (currently `https://bergfieldlab.org/`); for `<user>.github.io/<repo>` hosting before the domain is live, change it accordingly.
+Push to `main`; `.github/workflows/deploy.yml` builds and publishes to GitHub Pages. Set the repo's Pages source to "GitHub Actions". `baseURL` is set in `config/_default/hugo.yaml` (currently `https://justinb42.github.io/`, served from the `justinb42/justinb42.github.io` repo); when `bergfieldlab.org` goes live, change it there and set the custom domain in the repo's Pages settings.
 
 ## TODO before launch
 

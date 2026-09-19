@@ -26,7 +26,8 @@ footer .powered-by { display: none !important; }
 /* Let full-bleed sections escape the centered prose wrapper */
 .flex.flex-col.items-center > .prose:has(.home-tagline-block),
 .flex.flex-col.items-center > .prose:has(.research-cards),
-.flex.flex-col.items-center > .prose:has(.liu-news-band) {
+.flex.flex-col.items-center > .prose:has(.liu-news-band),
+.flex.flex-col.items-center > .prose:has(.member-grid) {
   width: 100% !important;
   max-width: 1100px !important;
 }
@@ -236,14 +237,16 @@ h1:has(+ .pub-hero-banner) { display: none; }
 /* ---------- Members page ---------- */
 .member-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.25rem;
-  margin: 1rem 0 2rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
+  margin: 0.5rem 0 1.5rem 0;
 }
-.member-card { border: 1px solid var(--bg-rule); border-radius: 12px; padding: 1rem 1.15rem; background: var(--bg-paper); }
-.member-card h3 { margin: 0 0 0.2rem 0 !important; font-size: 1.15rem !important; }
-.member-card .member-role { color: var(--bg-accent); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem; }
-.member-card p { margin: 0 !important; font-size: 0.95rem; line-height: 1.5; }
+.members-h2 { margin-top: 1.5rem !important; margin-bottom: 0.5rem !important; font-size: 1.5rem !important; }
+.members-h2:first-child { margin-top: 0 !important; }
+.member-card { border: 1px solid var(--bg-rule); border-radius: 10px; padding: 0.8rem 1rem; background: var(--bg-paper); }
+.member-card h3 { margin: 0 0 0.1rem 0 !important; font-size: 1.05rem !important; }
+.member-card .member-role { color: var(--bg-accent); font-weight: 600; font-size: 0.82rem; margin-bottom: 0.35rem; }
+.member-card p { margin: 0 !important; font-size: 0.9rem; line-height: 1.45; }
 
 /* ---------- Mobile ---------- */
 @media (max-width: 900px) {

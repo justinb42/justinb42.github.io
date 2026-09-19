@@ -32,12 +32,7 @@ links:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=k2J0GZYAAAAJ
 
-interests:
-  - Quantum transport in molecular junctions
-  - Quantum interference and transmission nodes
-  - Thermoelectrics and thermal probes
-  - Quantum thermodynamics and information
-  - Many-body nonequilibrium Green's functions
+interests: []
 
 education:
   - degree: PhD, Optical Sciences and Physics
