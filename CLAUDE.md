@@ -24,7 +24,7 @@ README.md has the how-tos for adding news items and featured papers.
 
 ## Version pins — do not change
 
-- **Hugo 0.157** locally; CI reads `build.hugo_version` from `hugoblox.yaml` (keep it at `0.157.0`).
+- **Hugo 0.157** locally; CI reads `build.hugo_version` from `hugoblox.yaml` (keep it at `0.157.0`). If that lookup fails, `build.yml` silently falls back to Hugo 0.154.5, which breaks the build.
 - **Blox** is pinned in `go.mod` to `v0.0.0-20260219145709-764756ab501c`. Do not run `hugo mod get -u` or bump to v0.12.0; that release requires Hugo 0.158 and breaks the build.
 - **Node 18 locally → Tailwind 4.1.12.** Newer Tailwind (4.3.x, which a fresh `npm install` resolves `^4.1.12` to) needs Node 20. `package-lock.json` locks 4.1.12; don't regenerate it with a plain `npm install` of newer versions. CI uses Node 20, so it isn't affected.
 - `config/_default/hugo.yaml` home outputs are `[HTML, RSS, backlinks]`. The Netlify `headers`/`redirects` formats were removed because the Netlify module isn't installed; re-adding them fails the build.
