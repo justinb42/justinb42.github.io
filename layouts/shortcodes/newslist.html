@@ -9,7 +9,7 @@
       {{ range first $limit $news }}
         <div class="liu-news-item">
           <span class="liu-news-date">{{ .date }}</span>
-          <span class="liu-news-text">{{ .text }}</span>
+          <span class="liu-news-text">{{ .text | safeHTML }}</span>
         </div>
       {{ end }}
     </div>

@@ -7,6 +7,13 @@ sections:
     content:
       title: ""
       text: |
+        <div class="page-hero" style="--hero:url('/media/hero/isucampus.jpg'); --hero-pos:center 25%; --hero-tint:rgba(60,20,30,0.28);">
+          <div class="page-hero-content">
+            <h1>Research</h1>
+            <p>Quantum transport, interference, and the thermodynamics of information</p>
+          </div>
+        </div>
+
         <p class="lead">
         Quantum transport carries information not only in particle and energy currents, but also in
         <em>source memory</em>, <em>spectral correlations</em>, <em>coherent pathways</em>, and <em>spatial structure</em>.
@@ -58,8 +65,16 @@ sections:
           </ul>
           <div class="research-gallery">
             <figure>
+              <img src="/media/research/multimode_benzene_pt.jpg" alt="A benzene molecule between two platinum electrodes.">
+              <figcaption>A benzene junction with multimode platinum contacts.</figcaption>
+            </figure>
+            <figure>
               <img src="/media/research/bergfield_ratner_pssb_cover.jpg" alt="Journal cover on nonequilibrium heat and charge transport at the nanoscale.">
-              <figcaption>Nonequilibrium heat and charge transport at the nanoscale.</figcaption>
+              <figcaption>Nonequilibrium heat and charge transport at the nanoscale (cover, <em>pss (b)</em> 2013).</figcaption>
+            </figure>
+            <figure>
+              <img src="/media/research/break_junction_bdt.jpg" alt="Two gold electrode tips of a break junction.">
+              <figcaption>A mechanically controlled break junction.</figcaption>
             </figure>
           </div>
         </div>
@@ -87,6 +102,14 @@ sections:
           </ul>
           <div class="research-gallery">
             <figure>
+              <img src="/media/research/supernode_cross_conjugated.jpg" alt="A cross-conjugated molecule between gold electrodes.">
+              <figcaption>Cross-conjugation creates transmission supernodes and giant thermopower.</figcaption>
+            </figure>
+            <figure>
+              <img src="/media/research/spin_thermopower_bdt.jpg" alt="A benzenedithiol junction between magnetized electrodes.">
+              <figcaption>Interference-enhanced spin thermopower in a benzenedithiol junction.</figcaption>
+            </figure>
+            <figure>
               <img src="/media/research/thermopower.jpg" alt="Joint conductance–thermopower statistics revealing a quantum interference node.">
               <figcaption>Joint <em>G</em>–<em>S</em> statistics reveal interference that conductance alone cannot.</figcaption>
             </figure>
@@ -111,6 +134,12 @@ sections:
             <li><strong>Plexcitonic signatures in electroluminescence.</strong> How strong coupling to a plasmonic gap shows up in the emitted light.</li>
             <li><strong>Superconducting molecular junctions.</strong> Non-classical light emission and symmetry-based design of quantum-enabled devices.</li>
           </ul>
+          <div class="research-gallery">
+            <figure>
+              <img src="/media/research/ppe_wire.jpg" alt="A polyphenylene ether molecular wire between gold electrodes.">
+              <figcaption>A molecular wire between electrodes: the platform for coupling transport to light.</figcaption>
+            </figure>
+          </div>
         </div>
 
         <!-- ================================================================ -->
@@ -180,6 +209,20 @@ sections:
             <li><strong>Voltage vs. voltage–temperature probes.</strong> What a local probe measures depends on what it is allowed to equilibrate; comparing probe constraints isolates the information each one discards. <span class="who">Eren Erdoğan</span></li>
             <li><strong>Spin-resolved local probes.</strong> Probe thermometry extended to spin, as a local measure of which-path information near interference nodes. <span class="who">Vivaan Menon</span></li>
           </ul>
+          <div class="research-gallery">
+            <figure>
+              <img src="/media/research/maxwell_demon.jpg" alt="Maxwell's demon.">
+              <figcaption>Maxwell's demon: electrons remember which reservoir they came from (<em>ACS Nano</em> 2013).</figcaption>
+            </figure>
+            <figure>
+              <img src="/media/research/scanning_thermopower_probe.jpg" alt="A scanning thermoelectric probe above a molecule on a surface.">
+              <figcaption>A scanning thermoelectric probe reads interference information directly.</figcaption>
+            </figure>
+            <figure>
+              <img src="/media/research/thermopower_map_sam.jpg" alt="An STM tip over a self-assembled monolayer.">
+              <figcaption>Local probes of a molecular monolayer.</figcaption>
+            </figure>
+          </div>
         </div>
 
         <div class="research-note">

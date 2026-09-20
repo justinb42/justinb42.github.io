@@ -13,12 +13,12 @@ sections:
     content:
       title: ""
       text: |
-        {{< research-carousel >}}
         <div class="home-tagline-block">
           <h1>Bergfield Research Group</h1>
           <p class="home-tagline">Reading the information hidden in quantum transport.</p>
           <p class="home-sub">Quantum transport theory · Department of Physics · Illinois State University</p>
         </div>
+        {{< research-carousel >}}
 
   # 2. Mission
   - block: markdown
@@ -54,7 +54,7 @@ sections:
       text: |
         <div class="research-cards">
           <a class="research-card" href="/research/#manybody">
-            <img src="/media/research/bergfield_ratner_pssb_cover.jpg" alt="Journal cover on nonequilibrium heat and charge transport">
+            <img src="/media/research/multimode_benzene_pt.jpg" alt="A benzene molecule between two platinum electrodes">
             <div class="research-card-body">
               <div class="research-card-kicker">Theme 1</div>
               <h3>Many-body theory of quantum transport</h3>
@@ -62,7 +62,7 @@ sections:
             </div>
           </a>
           <a class="research-card" href="/research/#thermoelectrics">
-            <img src="/media/research/thermopower.jpg" alt="Joint conductance–thermopower statistics">
+            <img src="/media/research/supernode_cross_conjugated.jpg" alt="A cross-conjugated molecule between gold electrodes">
             <div class="research-card-body">
               <div class="research-card-kicker">Theme 2</div>
               <h3>Quantum-enhanced thermoelectrics</h3>
@@ -70,7 +70,7 @@ sections:
             </div>
           </a>
           <a class="research-card" href="/research/#cavity">
-            <img src="/media/research/thermopower.jpg" alt="Cavity QED and transport">
+            <img src="/media/research/ppe_wire.jpg" alt="A polyphenylene ether wire between gold electrodes">
             <div class="research-card-body">
               <div class="research-card-kicker">Theme 3</div>
               <h3>Cavity QED and transport</h3>
@@ -78,7 +78,7 @@ sections:
             </div>
           </a>
           <a class="research-card" href="/research/#information">
-            <img src="/media/research/thermopower.jpg" alt="Quantum transport and information">
+            <img src="/media/research/maxwell_demon.jpg" alt="Maxwell's demon">
             <div class="research-card-body">
               <div class="research-card-kicker">Theme 4</div>
               <h3>Quantum transport and information</h3>

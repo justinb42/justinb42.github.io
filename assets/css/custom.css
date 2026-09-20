@@ -280,3 +280,44 @@ html, body { overflow-x: clip; }
   .research-theme p { max-width: 100%; }
   .theme-index { flex-direction: column; gap: 0.3rem; }
 }
+
+/* ---------- Biography block: trim the theme's very large vertical padding ---------- */
+section.blox-resume-biography-3 div.resume-biography {
+  padding-top: 2rem !important;
+  padding-bottom: 1.5rem !important;
+}
+section.blox-resume-biography-3 .grid { row-gap: 1rem !important; }
+/* Education cards: hide the theme's date lines; years are in the degree title */
+section.blox-resume-biography-3 time,
+section.blox-resume-biography-3 .text-xs.text-gray-500 { display: none !important; }
+
+/* Carousel: renders fill the frame; plots/figures are letterboxed (class "fit" on the slide) */
+.jb-carousel .jb-slide img { object-fit: cover !important; }
+.jb-carousel .jb-slide.fit img { object-fit: contain !important; }
+
+/* ---------- Reusable page hero (Research, and any future page) ----------
+   Usage in a markdown block:
+   <div class="page-hero" style="--hero:url('/media/hero/photo.jpg'); --hero-pos:center 40%;">
+     <div class="page-hero-content"><h1>Title</h1><p>Subtitle</p></div>
+   </div>                                                                   */
+.flex.flex-col.items-center > .prose:has(.page-hero) { width: 100% !important; max-width: 1100px !important; }
+.page-hero {
+  position: relative;
+  min-height: 260px;
+  background-image: var(--hero, url('/media/hero/isucampus.jpg'));
+  background-size: cover;
+  background-position: var(--hero-pos, center);
+  display: flex;
+  align-items: center;
+  padding: 3rem 4rem;
+  color: #fff;
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+  overflow: hidden;
+  margin: 0 0 1.5rem 0;
+  border-radius: 12px 12px 0 0;
+}
+.page-hero::before { content: ""; position: absolute; inset: 0; background: var(--hero-tint, rgba(0, 0, 0, 0.18)); }
+.page-hero-content { position: relative; z-index: 2; max-width: 800px; }
+.page-hero-content h1 { color: #fff !important; margin: 0 0 0.3rem 0 !important; text-shadow: 0 2px 10px rgba(0,0,0,0.45); }
+.page-hero-content p { color: #fff; font-size: 1.1rem; margin: 0 !important; text-shadow: 0 1px 8px rgba(0,0,0,0.45); }
+@media (max-width: 900px) { .page-hero { padding: 2rem 1.5rem; min-height: 200px; } }
