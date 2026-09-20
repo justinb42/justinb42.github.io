@@ -158,6 +158,7 @@ sections:
             operations, and much of our work is about telling these cases apart.
           </p>
 
+          <div class="ops-table-wrap">
           <table class="ops-table">
             <thead>
               <tr><th>Operation</th><th>What changes</th><th>Status of the information</th><th>Where we study it</th></tr>
@@ -171,6 +172,7 @@ sections:
               <tr><td><strong>Erase</strong></td><td>the retarded structure <em>G<sup>r</sup></em>, <em>Σ<sup>r</sup></em>, or contacts</td><td>an interference feature is physically removed</td><td>which-way information and erasure work</td></tr>
             </tbody>
           </table>
+          </div>
 
           <ul class="project-list">
             <li><strong>Which-way information and the cost of erasure.</strong> Treating the removal of an interference feature as a Landauer-type erasure with a minimum work cost.</li>
