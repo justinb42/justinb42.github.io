@@ -7,30 +7,22 @@ date: 2026-09-19
 <div class="pub-hero-banner">
   <div class="pub-hero-content">
     <h1>Publications</h1>
-    <p>Quantum transport, interference, and thermoelectrics, 2009–present.</p>
   </div>
 </div>
 
 Also on [Google Scholar](https://scholar.google.com/citations?user=k2J0GZYAAAAJ). Undergraduate co-authors from the group are marked \*, graduate co-authors \*\*.
 
-## In preparation
-
-- E. Erdoğan\*\* and J. P. Bergfield, "The influence of quantum interference and dephasing on the local charge and heat flow."
-- E. Erdoğan\*\* and J. P. Bergfield, "Quantum information and entropy in molecular transport systems: from coherence to structure."
-- H. Jilek\* and J. P. Bergfield, "Scanning thermopower images quantum interference."
-- R. X. Bennett\*, J. R. Hendrickson, and J. P. Bergfield, "The influence of off-resonant transport on the quantum-enhanced spin-dependent thermopower."
-
 ## Journal articles
 
 ### 2025
 
-[27] E. Erdoğan\*\* and J. P. Bergfield, "When dephasing fails: Thermodynamic consequences of decoherence models in quantum transport," *J. Chem. Phys.* **163**, 164104 (2025).
+[27] E. Erdoğan\*\* and J. P. Bergfield, "When dephasing fails: Thermodynamic consequences of decoherence models in quantum transport," *J. Chem. Phys.* **163**, 164104 (2025). <span class="doi-link">[doi:10.1063/5.0295479](https://doi.org/10.1063/5.0295479)</span>
 
 [26] J. P. Bergfield, "Thermoelectric enhancement of series-connected cross-conjugated molecular junctions," *Entropy* **27**, 1040 (2025). <span class="doi-link">[doi:10.3390/e27101040](https://doi.org/10.3390/e27101040)</span>
 
 [25] J. P. Bergfield, "Quantum interference supernodes, thermoelectric enhancement, and the role of dephasing," *Entropy* **27**, 1000 (2025). <span class="doi-link">[doi:10.3390/e27101000](https://doi.org/10.3390/e27101000)</span>
 
-[24] J. P. Bergfield, "Many-body effects in a molecular quantum NAND tree," *Quantum Rep.* **7**, 45 (2025).
+[24] J. P. Bergfield, "Many-body effects in a molecular quantum NAND tree," *Quantum Rep.* **7**, 45 (2025). <span class="doi-link">[doi:10.3390/quantum7040045](https://doi.org/10.3390/quantum7040045)</span>
 
 ### 2024
 
@@ -46,9 +38,9 @@ Also on [Google Scholar](https://scholar.google.com/citations?user=k2J0GZYAAAAJ)
 
 ### 2018
 
-[19] S. Inui\*, C. A. Stafford, and J. P. Bergfield, "Emergence of Fourier's law of heat transport in quantum electron systems," *ACS Nano* **12**, 4304 (2018).
+[19] S. Inui\*, C. A. Stafford, and J. P. Bergfield, "Emergence of Fourier's law of heat transport in quantum electron systems," *ACS Nano* **12**, 4304 (2018). <span class="doi-link">[doi:10.1021/acsnano.7b08816](https://doi.org/10.1021/acsnano.7b08816)</span>
 
-[18] J. P. Bergfield and J. R. Hendrickson, "Signatures of plexcitonic states in molecular electroluminescence," *Sci. Rep.* **8**, 2314 (2018).
+[18] J. P. Bergfield and J. R. Hendrickson, "Signatures of plexcitonic states in molecular electroluminescence," *Sci. Rep.* **8**, 2314 (2018). <span class="doi-link">[doi:10.1038/s41598-018-19382-2](https://doi.org/10.1038/s41598-018-19382-2)</span>
 
 ### 2015
 
@@ -64,7 +56,7 @@ Also on [Google Scholar](https://scholar.google.com/citations?user=k2J0GZYAAAAJ)
 
 ### 2013
 
-[13] J. P. Bergfield and M. A. Ratner, "Forty years of molecular electronics: Non-equilibrium heat and charge transport at the nanoscale," *Phys. Status Solidi B* **250**, 2249 (2013). Review article; cover article.
+[13] J. P. Bergfield and M. A. Ratner, "Forty years of molecular electronics: Non-equilibrium heat and charge transport at the nanoscale," *Phys. Status Solidi B* **250**, 2249 (2013). Review article; cover article. <span class="doi-link">[doi:10.1002/pssb.201350048](https://doi.org/10.1002/pssb.201350048)</span>
 
 [12] J. P. Bergfield, S. M. Story, R. C. Stafford, and C. A. Stafford, "Probing Maxwell's demon with a nanoscale thermometer," *ACS Nano* **7**, 4429 (2013). <span class="doi-link">[doi:10.1021/nn401027u](https://doi.org/10.1021/nn401027u)</span>
 
@@ -76,11 +68,11 @@ Also on [Google Scholar](https://scholar.google.com/citations?user=k2J0GZYAAAAJ)
 
 [9] J. P. Bergfield, Z.-F. Liu, K. Burke, and C. A. Stafford, "Bethe ansatz approach to the Kondo effect within density-functional theory," *Phys. Rev. Lett.* **108**, 066801 (2012). <span class="doi-link">[doi:10.1103/PhysRevLett.108.066801](https://doi.org/10.1103/PhysRevLett.108.066801)</span>
 
-[8] J. P. Bergfield, J. D. Barr, and C. A. Stafford, "Transmission eigenvalue distributions in highly conductive molecular junctions," *Beilstein J. Nanotechnol.* **3**, 40 (2012).
+[8] J. P. Bergfield, J. D. Barr, and C. A. Stafford, "Transmission eigenvalue distributions in highly conductive molecular junctions," *Beilstein J. Nanotechnol.* **3**, 40 (2012). <span class="doi-link">[doi:10.3762/bjnano.3.5](https://doi.org/10.3762/bjnano.3.5)</span>
 
 ### 2011
 
-[7] G. C. Solomon, J. P. Bergfield, C. A. Stafford, and M. A. Ratner, "When 'small' terms matter: Coupled interference features in the transport properties of cross-conjugated molecules," *Beilstein J. Nanotechnol.* **2**, 862 (2011).
+[7] G. C. Solomon, J. P. Bergfield, C. A. Stafford, and M. A. Ratner, "When 'small' terms matter: Coupled interference features in the transport properties of cross-conjugated molecules," *Beilstein J. Nanotechnol.* **2**, 862 (2011). <span class="doi-link">[doi:10.3762/bjnano.2.95](https://doi.org/10.3762/bjnano.2.95)</span>
 
 [6] J. P. Bergfield, G. C. Solomon, C. A. Stafford, and M. A. Ratner, "Novel quantum interference effects in transport through molecular radicals," *Nano Lett.* **11**, 2759 (2011). <span class="doi-link">[doi:10.1021/nl201042m](https://doi.org/10.1021/nl201042m)</span>
 
