@@ -57,6 +57,20 @@ sections:
             them into a smooth profile, but true Fourier transport only emerges when many overlapping states
             contribute and interference self-averages.
           </p>
+          <figure class="research-figure">
+            <img src="/media/research/dqi_meta_para.jpg" alt="Benzene junctions contacted in the meta and para positions, with transmission spectra from a one-electron Hückel model and from many-body theory.">
+            <figcaption>
+              The same molecule, wired two ways. Moving a contact by one atom (left) opens a destructive-interference
+              node in the transmission at the Fermi level; the para connection (right) has none. The node survives in
+              many-body theory, but interactions reshape it and the resonances around it, which is why the framework
+              has to keep correlations rather than average over them.
+            </figcaption>
+          </figure>
+          <p class="applications">
+            <strong>Why it matters.</strong> These are the calculations that say what a nanoscale thermometer or
+            voltage probe is actually reading, and how far a classical description of heat flow can be pushed before
+            it stops being true: questions that arrive with every device only a few atoms across.
+          </p>
           <ul class="project-list">
             <li><strong>Many-body theory of single-molecule junctions.</strong> Exact few-body molecular Green's functions with electrode self-energies; the framework underlying our transport codes.</li>
             <li><strong>Local thermodynamic probes.</strong> Definitions and measurements of local temperature and voltage in nonequilibrium quantum systems, including thermoelectric corrections to quantum voltage measurement.</li>
@@ -76,6 +90,10 @@ sections:
               <img src="/media/research/break_junction_bdt.jpg" alt="Two gold electrode tips of a break junction.">
               <figcaption>A mechanically controlled break junction.</figcaption>
             </figure>
+            <figure>
+              <img src="/media/research/graphene_probe.jpg" alt="A scanning probe above a graphene ribbon bridging a hot and a cold electrode.">
+              <figcaption>A local probe over a graphene ribbon between hot and cold electrodes: what temperature does it report?</figcaption>
+            </figure>
           </div>
         </div>
 
@@ -92,6 +110,20 @@ sections:
             response beyond classical expectations, and how the same sensitivity turns thermopower into a probe and
             an imaging tool.
           </p>
+          <figure class="research-figure">
+            <img src="/media/research/thermopower_vs_conductance.jpg" alt="Conductance and thermopower of the same molecular junction plotted against chemical potential; the conductance is smooth where the thermopower changes sign sharply.">
+            <figcaption>
+              Two measurements on the same junction. Across the gap the conductance is smooth and featureless, while
+              the thermopower swings through sign changes of order <em>k</em><sub>B</sub>/<em>e</em>: it responds to the
+              <em>slope</em> of the transmission, so it carries structure that conductance alone cannot report.
+            </figcaption>
+          </figure>
+          <p class="applications">
+            <strong>Why it matters.</strong> The same physics points at energy conversion, converting waste heat into
+            electricity and light into current, at chemical identification from a thermoelectric signature, and at
+            insulator design: interference that suppresses leakage current while leaving the molecule highly
+            polarizable is a route to high-dielectric molecular materials.
+          </p>
           <ul class="project-list">
             <li><strong>Supernodes and series-connected cross-conjugated junctions.</strong> Higher-order interference features as a route to scalable thermoelectric enhancement, and the role of dephasing in limiting it.</li>
             <li><strong>Spin-dependent thermoelectric response.</strong> Interference enhancement of the spin thermopower in single-molecule junctions.</li>
@@ -99,6 +131,7 @@ sections:
             <li><strong>Learning interference from transport statistics.</strong> Machine-learning classifiers that identify transmission nodes from synthetic break-junction data, benchmarked against analytic correlation rules. <span class="who">Sadhvik Paladugu, Sarayu Parsi, Dhruv Marlapaty</span></li>
             <li><strong>Scanning thermopower as a quantum-transport interferogram.</strong> A thermoelectric scanning probe that images interference structure directly. <span class="who">Helen Jilek</span></li>
             <li><strong>DNA nucleobase discrimination by thermopower.</strong> The same sensitivity applied to molecular identification in a transverse junction geometry. <span class="who">Helen Jilek</span></li>
+            <li><strong>Molecular dielectrics by interference design.</strong> Transport is a current–current correlation; dielectric response is a density–density correlation, and at the nanoscale the two can be tuned separately. A donor–bridge–acceptor molecule can stay highly polarizable while a transmission node holds leakage current down, a design route to high-dielectric monolayers (<em>ACS Nano</em> 2015).</li>
           </ul>
           <div class="research-gallery">
             <figure>
@@ -128,6 +161,11 @@ sections:
             can be treated on the same footing. Superconducting electrodes add correlated Cooper pairs as a further
             resource, with entanglement transfer between electronic and photonic degrees of freedom as the long-term
             target.
+          </p>
+          <p class="applications">
+            <strong>Why it matters.</strong> Electrically driven light sources whose output is set by interference
+            rather than by dye chemistry, molecular-scale single-photon emitters, and efficient conversion of light
+            into electricity.
           </p>
           <ul class="project-list">
             <li><strong>Polaritonic states in molecular junctions.</strong> Cavity modes in the many-body Dyson framework, interference-enhanced light emission, and the dependence on cavity geometry. <span class="who">Joshua Klein</span></li>
@@ -203,6 +241,11 @@ sections:
           </table>
           </div>
 
+          <p class="applications">
+            <strong>Why it matters.</strong> This sets limits on what any nanoscale measurement can resolve, and it
+            puts a number on the energy cost of the step every quantum device eventually has to perform: destroying
+            information. It is the same accounting that fixes the energy budget of computation itself.
+          </p>
           <ul class="project-list">
             <li><strong>Which-way information and the cost of erasure.</strong> Treating the removal of an interference feature as a Landauer-type erasure with a minimum work cost.</li>
             <li><strong>Can local decoherence erase quantum interference?</strong> Thermodynamic consequences of the decoherence model, and the cost of erasing interference with local probes. <span class="who">Eren Erdoğan</span></li>

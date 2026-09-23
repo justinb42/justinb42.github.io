@@ -23,6 +23,35 @@ h2 { font-size: 1.35rem !important; margin-top: 1.25rem !important; margin-botto
 .lead { font-size: 1.15rem !important; line-height: 1.65 !important; }
 footer .powered-by { display: none !important; }
 
+/* ---------- Top navigation ---------- */
+.navbar-nav .nav-link {
+  font-size: 1.1rem !important;
+  letter-spacing: 0.005em;
+  position: relative;
+}
+.navbar-brand { font-size: 1.35rem !important; }
+/* clearer hover: deeper wine plus an underline that grows in */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus-visible { color: #5e0f27 !important; }
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0.7rem;
+  right: 0.7rem;
+  bottom: 0.3rem;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.18s ease;
+}
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link:focus-visible::after { transform: scaleX(1); }
+.navbar-nav .nav-link.active::after { transform: scaleX(1); opacity: 0.4; }
+.dark .navbar-nav .nav-link:hover,
+.dark .navbar-nav .nav-link:focus-visible { color: #eda9bd !important; }
+
 /* Let full-bleed sections escape the centered prose wrapper */
 .flex.flex-col.items-center > .prose:has(.home-tagline-block),
 .flex.flex-col.items-center > .prose:has(.research-cards),
@@ -198,6 +227,44 @@ footer .powered-by { display: none !important; }
   white-space: nowrap;
 }
 .research-note { border-top: 1px solid var(--bg-rule); padding-top: 1.25rem; margin-top: 1rem; }
+
+/* full-width explanatory figure inside a research theme */
+.research-figure { margin: 1.5rem 0 1.25rem 0; }
+.research-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+.research-figure figcaption {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #555;
+  margin-top: 0.6rem;
+  max-width: 950px;
+}
+
+/* "why it matters" note under each theme's prose */
+.applications {
+  border-left: 3px solid var(--bg-accent);
+  background: #f7f3ee;
+  padding: 0.7rem 1rem;
+  margin: 1.1rem 0 0.5rem 0 !important;
+  border-radius: 0 8px 8px 0;
+  font-size: 1rem !important;
+  max-width: 950px;
+}
+.applications strong { color: var(--bg-accent); }
+
+/* plain-language paragraph on the homepage */
+.home-mission .plain { font-size: 1.05rem; line-height: 1.7; }
+
+/* prospective-students block on the members page */
+.joining { max-width: 820px; }
+.joining p { line-height: 1.65; margin-bottom: 0.75rem; }
+.joining strong { color: var(--bg-accent); }
 
 .theme-index { list-style: none; padding: 0; margin: 0.5rem 0 1.5rem 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
 .theme-index a { color: var(--bg-accent) !important; font-weight: 600; text-decoration: none; }

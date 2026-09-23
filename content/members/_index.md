@@ -101,7 +101,33 @@ sections:
           <li><strong>J. Chaves</strong> (2016–2017) — thermoelectric enhancement of acyclic cross-conjugated polymers.</li>
           <li><strong>A. Rahe</strong> (2017) — theory of the scanning thermoelectric microscope.</li>
         </ul>
-        <p>Interested in joining? Students at any level who want to work on quantum transport, quantum thermodynamics, or scientific computing are welcome to <a href="mailto:jpbergf@ilstu.edu">get in touch</a>.</p>
+        <h2 class="members-h2">Prospective students</h2>
+        <div class="joining">
+          <p>
+            I take students at every level, from high school through the M.S., and everyone works on a real problem
+            with a real chance of becoming a paper. Several of the people listed above are authors on published work.
+          </p>
+          <p>
+            You do not need to have taken quantum mechanics yet, and you do not need to arrive knowing how to program.
+            What helps is curiosity about how nature actually works, some tolerance for being stuck, and a willingness
+            to learn MATLAB or Python along the way. Projects range from analytic theory to large-scale simulation to
+            machine learning on transport data, so there is usually something that matches what you want to get better at.
+          </p>
+          <p>
+            What you can expect: regular one-on-one meetings, a group that talks to each other, the chance to present
+            at ISU research symposia and at national meetings such as the APS March Meeting, and help applying for
+            REU positions, fellowships, and graduate school.
+          </p>
+          <p>
+            <strong>Illinois State undergraduates:</strong>
+            <a href="mailto:jpbergf@ilstu.edu">email me</a> with a sentence or two about what interests you and when
+            you are free to meet.
+            <strong>Prospective M.S. students:</strong> apply to the ISU Physics M.S. program, name me in your
+            application, and <a href="mailto:jpbergf@ilstu.edu">send me a note</a> so I know to look for it.
+            <strong>High-school students:</strong> summer projects are possible and usually start with a conversation
+            in the spring.
+          </p>
+        </div>
     design:
       columns: '1'
       spacing:

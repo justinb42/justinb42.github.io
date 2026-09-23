@@ -35,6 +35,15 @@ sections:
           thermoelectric probes to read that information, identify the conditions under which it becomes
           inaccessible or irrelevant, and determine the thermodynamic resources required to erase or exploit it.
           </p>
+          <p class="plain">
+          Put plainly: inside a molecule electrons behave like waves, and waves can cancel. Move the two contacts
+          by a single atom and the current can vanish, not because anything blocks it, but because it cancels
+          itself. Nature gives molecules their nearly perfect symmetry, and symmetry is what controls quantum
+          behavior, so these effects survive at room temperature, in real environments, and in devices large
+          enough to build. That is also what makes them useful: a fundamentally new way to switch current
+          without heating, materials that convert waste heat or light into electricity, and a working laboratory
+          for the physics of information itself.
+          </p>
           <p>
           We are a theory group working on molecular junctions and other open quantum conductors, where quantum
           interference dominates the response even at room temperature. Our tools are nonequilibrium Green's
