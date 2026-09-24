@@ -23,6 +23,22 @@ h2 { font-size: 1.35rem !important; margin-top: 1.25rem !important; margin-botto
 .lead { font-size: 1.15rem !important; line-height: 1.65 !important; }
 footer .powered-by { display: none !important; }
 
+/* ---------- Bio block avatar ----------
+   The theme gives .avatar-wrapper a fixed 320px box with max-width:none, so
+   between ~768px and ~1030px the photo overflows its 4-of-12 column and runs
+   over the text beside it. Make the whole wrapper fluid instead. */
+.resume-biography .avatar-wrapper {
+  width: min(320px, 100%) !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+.resume-biography .avatar-wrapper img.avatar {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
 /* ---------- Top navigation ---------- */
 .navbar-nav .nav-link {
   font-size: 1.1rem !important;
